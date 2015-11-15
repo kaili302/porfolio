@@ -1,0 +1,135 @@
+body {
+  padding-top: 0;
+  padding-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+/* header */
+.header,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom: 15px;
+}
+a{
+  color: #222;
+}
+p {
+  font-size: 14px!important;
+}
+.hometitle{
+  min-height: 80px;
+  background-color: #0096DD;
+}
+.hometitle h1 {
+  color: #fff;
+  line-height: 40px;
+}
+.hometitle h1 small{
+  color: #fff;
+}
+.hometitle ol {
+  display: block;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 60px;
+  margin-bottom: 0;
+  background: none;  
+}
+.hometitle ol a{
+  font-size: 12px;
+  color: #fff;
+}
+.custom-nav{
+  height: 54px;
+  min-width: 750px;
+  background-color: #2F7BBC;
+  position: relative;
+  overflow: visible !important;
+}
+.custom-nav ul{
+  display: block;
+  position: absolute;
+  border: none;
+  bottom: 0;
+}
+.custom-nav ul>li{
+  display: block;
+  width: 120px;
+  text-align: center;
+}
+.custom-nav ul>li>a{
+  color: #fff;
+}
+.custom-nav ul>li>a:hover{
+  color: #333;
+}
+/* Reset the container */
+.container {
+  width: 750px;
+  max-width: none !important;
+}
+/* jumbotron */
+.jumbotron {
+  position: relative;
+  height: auto;
+  text-align: left;
+  border-bottom: 1px solid #e5e5e5;
+}
+.contact-row{
+  margin: 2px 0 5px 0;
+}
+.contact-row small{
+  color: #777;
+}
+.firm-row{
+  margin: 2px 0 5px 0;
+}
+.firm-row small{
+  color: #777;
+}
+.firm-row img{
+  float: right;
+  height: 14px;
+  width: auto;
+  display: inline-block;
+}
+.readmore{
+  background: #0096DD;
+  color: #fff;
+}
+hr{
+  display: block; height: 1px;
+  margin: 0!important;
+  padding: 0!important;
+  border: 0; border-top: 1px solid #ccc;
+}
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  padding-left: 0;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 15px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}

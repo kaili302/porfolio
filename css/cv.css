@@ -1,0 +1,46 @@
+.title-exp{
+	display: block;
+	margin: -30px 0 -15px;
+	font-size: 24px;
+}
+.title-pro, .title-edu{
+	display: block;
+	margin: 20px 0 -15px;
+	font-size: 24px;
+}
+.panel-exp, .panel-pro, .panel-edu{
+	position: relative;
+	margin: 0 0 15px;
+	padding: 10px;
+}
+.panel .logo{
+	position: absolute;
+	top: 4px;
+	right: 6px;
+}
+.panel img{
+	width: 45px;
+	height: 45px;
+	border-radius: 3px;
+}
+.panel .title, .panel .title a{
+	margin: 0;
+	font-size: 18px!important;
+	color: #3EB4AA;
+}
+.panel .detail{
+	margin: 0;
+	color: #777;
+	font-size: 12px;
+	line-height: 12px;
+}
+.panel .detail a{
+	color: #777;
+	font-size: 12px;
+	line-height: 12px;
+}
+.panel .mission{
+	margin: 10px 0 0;
+	width: 500px;
+	padding: 0 0 0 15px!important;
+}
